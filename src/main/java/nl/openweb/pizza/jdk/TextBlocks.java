@@ -2,6 +2,9 @@ package nl.openweb.pizza.jdk;
 
 import lombok.extern.slf4j.Slf4j;
 
+/**
+ * @see <a href="https://openjdk.java.net/jeps/378">JEP 378</a>
+ */
 @Slf4j
 public class TextBlocks {
 
