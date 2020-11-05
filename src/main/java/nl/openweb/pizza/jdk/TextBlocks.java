@@ -1,5 +1,8 @@
 package nl.openweb.pizza.jdk;
 
+import lombok.extern.slf4j.Slf4j;
+
+@Slf4j
 public class TextBlocks {
 
     private static final String JSON_TEXT = """
@@ -10,6 +13,6 @@ public class TextBlocks {
             """;
 
     public static void main(String[] args) {
-        System.out.println(JSON_TEXT);
+        log.info("\n{}", JSON_TEXT);
     }
 }
